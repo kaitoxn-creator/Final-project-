@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A single-page personal reflection website by a Tangub City Global College student on faith, integrity, and responsible digital citizenship.">
+<title>TCGC Light of the World</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-login">
+<header id="hdr"><span class="brand"><img class="logo" src="logo.jpg" alt="TCGC logo">TCGC &middot; Light of the World</span><nav aria-label="Main"><a href="#home" data-v="home">Reflection</a><a href="#faith" data-v="faith">Faith</a><a href="#integrity" data-v="integrity">Integrity</a><a href="#digital" data-v="digital">Digital Citizenship</a><a href="#login" data-v="login">Log out</a></nav></header>
+<div class="view login" id="login">
+<form id="f">
+<img class="logo" src="logo.jpg" alt="Tangub City Global College logo">
+<h1>TCGC: Light of the World</h1>
+<p>Tangub City Global College. Una ang Ginoo. Log in to enter.</p>
+<label for="u">Username</label><input id="u" type="text" autocomplete="username">
+<label for="p">Password</label><input id="p" type="password" autocomplete="current-password">
+<label class="show"><input type="checkbox" id="sp"> Show password</label>
+<div id="msg" role="alert"></div>
+<button class="btn" type="submit">Log in</button>
+</form>
+</div>
+<div class="view" id="home" data-title="Walking in the Light" hidden>
+<div class="hero"><p class="tag">Page 2 &middot; Personal Reflection</p><h1>Walking in the Light</h1><p>A TCGC student's reflections on faith, integrity, and being a light online.</p></div>
+<main>
+<section class="reveal"><h2>Welcome</h2><p class="lead">I am Issaiah Mosses A. Caparoso, a student of Tangub City Global College. This website is my personal reflection on how faith guides what I do in school and online.</p><p>At TCGC, <b>Una ang Ginoo</b> (God First) is more than a motto. It is the first question I ask before I study, post, or reply: does this honor God and respect the people who will read it? As a follower of the Light of the World, I want my words, my work, and even my web pages to bring clarity and hope to others.</p></section>
+<section class="reveal"><div class="stats"><div><b>1</b>God first</div><div><b>3</b>Core values</div><div><b>5</b>Digital habits</div><div><b>&infin;</b>Ways to shine</div></div></section>
+<section class="reveal"><h2>About this project</h2><p>Light in the Web is a value-centered website that shows technology and faith working together. It has five pages: Login, Reflection, Faith, Integrity, and Digital Citizenship. My reflection essay and a weekly pledge are on this page.</p></section>
+<section><h2>Daily Light</h2><blockquote class="reveal" id="verse">&ldquo;I am the light of the world.&rdquo;<cite id="vc">John 8:12</cite></blockquote><p></p><button class="btn" id="nv" type="button">Show another verse</button></section>
+<section class="reveal"><h2>Reflection Essay: Walking in the Light</h2>
+<p>When I first learned that my final project would be a website, I thought it was only about code. Tags, colors and layouts were the tools. But as I built this page I realized that every choice I make online says something about who I am and what I believe. For me, technology is not separate from faith. It is another place where I can choose to be a light.</p>
+<p>My faith begins with <b>Una ang Ginoo</b>, putting God first. At Tangub City Global College, this is not just a phrase on a wall. It is a daily decision. When I pray before a quiz, I am not asking for a shortcut; I am asking for a calm mind and an honest heart. When I am tired or discouraged, I remember that my effort is a way of thanking Him for the chance to learn. Putting God first reminds me that my grades and achievements are not the center of my life. They are gifts to be used well and shared with others.</p>
+<p>From faith comes <b>integrity</b>. Integrity means I am the same person whether a teacher is watching or not whether I am in the classroom or alone with my phone. It is easy to copy an answer or to ignore a mistake but each small compromise teaches my heart to compromise again. I want to be a student whose word can be trusted. When I admit a mistake, give credit to someone else's work, or refuse to join in gossip I practice what I believe and I become the kind of person others can rely on.</p>
+<p>The same values apply to <b>digital citizenship</b>. The internet gives each of us a voice that can reach hundreds of people in seconds, and that power carries responsibility. A single comment can encourage a classmate or wound them for a long time. A single shared rumor can damage someone's name. So I try to pause before I post and ask whether it is true, kind, and necessary. I try to verify before I share and respect other people's privacy and work. Being a good digital citizen is simply loving my neighbor in the places where we meet online.</p>
+<p>Jesus called His followers the light of the world, and said that a light should not be hidden. A light is not meant to show off; it is meant to help people see. This is what I hope this website does. I hope it shows how faith, integrity, and responsible technology can work together to inspire and uplift others. I know I will make mistakes, but each day is a new chance to begin again. If my words, my work, and my web pages can bring even one person a little hope, then I have walked in the light.</p>
+<p><i>&mdash; Issaiah Mosses A. Caparoso, TCGC</i></p></section>
+<section><h2>Explore</h2><div class="grid"><div class="card reveal"><div class="ico">&#128591;</div><h3>Faith</h3><p>How putting God first guides my life.</p><p><a class="btn alt" href="#faith">Read more</a></p></div><div class="card reveal"><div class="ico">&#9878;&#65039;</div><h3>Integrity</h3><p>Being honest and the same person everywhere.</p><p><a class="btn alt" href="#integrity">Read more</a></p></div><div class="card reveal"><div class="ico">&#127760;</div><h3>Digital Citizenship</h3><p>How I try to be a light on the internet.</p><p><a class="btn alt" href="#digital">Read more</a></p></div></div></section>
+<section class="reveal pledge"><h2>My weekly pledge</h2><label><input type="checkbox"> I prayed before using social media.</label><label><input type="checkbox"> I posted something that encouraged someone.</label><label><input type="checkbox"> I walked away from an argument.</label><label><input type="checkbox"> I verified before I shared.</label><div class="bar"><i id="bar"></i></div><p id="pc">0 of 4 done</p></section>
+<section class="reveal"><blockquote>Lord, make my words and my work a light for others. Una ang Ginoo. Amen.</blockquote></section>
+</main>
+</div>
+<div class="view" id="faith" data-title="Faith in the Light of the World" hidden>
+<div class="hero"><p class="tag">Page 3 &middot; Faith</p><h1>Faith in the Light of the World</h1><p>How putting God first shapes my school life, my choices, and my words.</p></div>
+<main>
+<section class="reveal"><h2>Una ang Ginoo</h2><p class="lead">Putting God first means making Him my starting point, not an afterthought.</p><p>Faith is not only for Sunday. When I pray before a quiz or a project, I remember that my effort is also a way of thanking Him. Jesus said He is the light of the world, and He invites His followers to carry that light to others. At TCGC, I want to carry it through how I study, serve, and speak.</p></section>
+<section><h2>Four ways I practice my faith</h2><div class="grid"><div class="card reveal"><div class="ico">&#128591;</div><h3>Prayer</h3><p>I begin my day and my schoolwork by asking God for wisdom and a humble heart.</p></div><div class="card reveal"><div class="ico">&#128214;</div><h3>Scripture</h3><p>I read a verse each day and ask: how can I live this out today?</p></div><div class="card reveal"><div class="ico">&#127775;</div><h3>Gratitude</h3><p>I thank God for my family, teachers, classmates, and the chance to learn.</p></div><div class="card reveal"><div class="ico">&#129309;</div><h3>Service</h3><p>I use my skills, even my computer skills, to help others and honor Him.</p></div></div></section>
+<section class="reveal"><blockquote>&ldquo;Let your light so shine before men.&rdquo;<cite>Matthew 5:16</cite></blockquote></section>
+<section class="reveal"><h2>A day of walking in the light</h2><div class="timeline"><div><h3>Morning</h3><p>A short prayer asking God to guide my choices and my words.</p></div><div><h3>At school</h3><p>I do my work with joy and help a classmate when I can.</p></div><div><h3>Online</h3><p>I pause before posting and choose words that lift people up.</p></div><div><h3>Evening</h3><p>I thank God and review where I shone and where I need to grow.</p></div></div></section>
+<section class="reveal"><h2>My reflection</h2><p>Faith becomes real when it changes ordinary choices. If God is first, then my grades my friendships and my posts are all places where His light can show. I may not be perfect, but I can start again each day.</p></section>
+</main>
+</div>
+<div class="view" id="integrity" data-title="Integrity: One Person Everywhere" hidden>
+<div class="hero"><p class="tag">Page 4 &middot; Integrity</p><h1>Integrity: One Person Everywhere</h1><p>Being honest and consistent in class, at home, and online, even when no one is watching.</p></div>
+<main>
+<section class="reveal"><h2>What integrity means to me</h2><p class="lead">Integrity is being the same person in every place and in every moment.</p><p>It is the first value on the TCGC seal. It means my words match my actions, I do the right thing when it is hard, and I take responsibility for my mistakes. A person of integrity can be trusted, and trust is a light that others can follow.</p></section>
+<section><h2>Four parts of integrity</h2><div class="grid"><div class="card reveal"><div class="ico">&#9878;&#65039;</div><h3>Honesty</h3><p>I tell the truth and do my own work, even when a shortcut is easy.</p></div><div class="card reveal"><div class="ico">&#129309;</div><h3>Accountability</h3><p>I admit my mistakes and fix them instead of blaming others.</p></div><div class="card reveal"><div class="ico">&#129517;</div><h3>Consistency</h3><p>I act the same online, offline, and when I think no one sees.</p></div><div class="card reveal"><div class="ico">&#128170;</div><h3>Courage</h3><p>I say no to cheating and bullying, even if friends are doing it.</p></div></div></section>
+<section class="reveal"><blockquote>&ldquo;The integrity of the upright shall guide them.&rdquo;<cite>Proverbs 11:3</cite></blockquote></section>
+<section class="reveal"><h2>Integrity in school</h2><table><tr><th>Situation</th><th>The choice of integrity</th></tr><tr><td>A classmate offers answers during a quiz</td><td>Politely refuse and answer on my own</td></tr><tr><td>My group mate does less work</td><td>Talk kindly and share the work fairly</td></tr><tr><td>I made a mistake in my project</td><td>Admit it and correct it</td></tr><tr><td>I find a lost wallet</td><td>Return it to the owner or the office</td></tr></table></section>
+<section><h2>Test your choices</h2>
+<details open><summary>I copied code from a friend. What do I do?</summary><p>I tell my teacher honestly redo the work in my own way and learn the lesson. Honesty now protects my future.</p></details>
+<details><summary>I see a classmate's private photo being shared. What do I do?</summary><p>I do not forward it. I tell the person and report it to a teacher so the harm stops.</p></details></section>
+<section class="reveal"><h2>My integrity pledge</h2><p>I promise to be honest in my work, to own my mistakes, and to be the same person everywhere. Una ang Ginoo.</p></section>
+</main>
+</div>
+<div class="view" id="digital" data-title="Responsible Digital Citizenship" hidden>
+<div class="hero"><p class="tag">Page 5 &middot; Digital Citizenship</p><h1>Responsible Digital Citizenship</h1><p>Five habits that keep my online life honest and kind.</p></div>
+<main>
+<section class="reveal"><h2>Why it matters</h2><p class="lead">A Global Collegian carries the Light of the World everywhere, including online.</p><p>Words on the internet last longer than words spoken, and they can reach thousands of people in seconds. That power is a responsibility. I want my posts, comments, and projects to inform, encourage, and protect people.</p></section>
+<section><h2>My five habits</h2>
+<details open><summary>1. Think before posting</summary><p>I ask three questions: Is it true? Is it kind? Is it necessary? If one answer is no, I do not post.</p></details>
+<details><summary>2. Verify before sharing</summary><p>I check the source, date, and author. Sharing a rumor, even by accident, can hurt real people.</p></details>
+<details><summary>3. Give credit</summary><p>I name the creator of images, music, and ideas. Honesty in digital creation is part of integrity.</p></details>
+<details><summary>4. Protect privacy</summary><p>I do not post other people's photos or personal details without permission, and I guard my own information.</p></details>
+<details><summary>5. Respond with grace</summary><p>When someone is rude, I answer calmly or choose not to answer. A gentle reply can end an argument.</p></details></section>
+<section><h2>What would a light-bearer do?</h2><div class="grid"><div class="card reveal"><div class="ico">&#128172;</div><h3>A classmate is being mocked in a group chat</h3><p>I do not join in. I message the classmate privately, and I report the bullying to a teacher if it continues.</p></div><div class="card reveal"><div class="ico">&#128240;</div><h3>A shocking post is going viral</h3><p>I search for a reliable source first. If it is false, I do not share it, and I kindly correct those who did.</p></div></div></section>
+<section class="reveal"><h2>Do and don't</h2><table><tr><th>Do</th><th>Don't</th></tr><tr><td>Encourage and correct gently</td><td>Bully, mock, or shame</td></tr><tr><td>Share verified news</td><td>Forward rumors</td></tr><tr><td>Cite your sources</td><td>Copy others' work</td></tr><tr><td>Ask permission before tagging</td><td>Post private details</td></tr></table></section>
+</main>
+</div>
+<footer id="ftr"><p><b>Una ang Ginoo.</b> Light in the web, light in the world.</p><p>Made by Issaiah Mosses A. Caparoso &middot; CIC 111 (Laboratory) &middot; Tangub City Global College (TCGC), Lorenzo Tan, Tangub City</p></footer>
+<button id="top" aria-label="Back to top">&uarr;</button>
+<script src="script.js"></script>
+</body>
+</html>
